@@ -7,83 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2705536C1D46903100870F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2705536B1D46903100870F46 /* main.m */; };
-		270553731D46909D00870F46 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270553721D46909C00870F46 /* OpenGL.framework */; };
-		270553751D4690A100870F46 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270553741D4690A100870F46 /* GLUT.framework */; };
-		270553771D4690A500870F46 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270553761D4690A500870F46 /* Cocoa.framework */; };
+		27013A921D470B5D00C1F166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27013A911D470B5D00C1F166 /* Assets.xcassets */; };
+		27013A951D470B5D00C1F166 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27013A931D470B5D00C1F166 /* MainMenu.xib */; };
+		27013AA11D470B9900C1F166 /* hello1.tga in Resources */ = {isa = PBXBuildFile; fileRef = 27013A9C1D470B9900C1F166 /* hello1.tga */; };
+		27013AA21D470B9900C1F166 /* hello2.tga in Resources */ = {isa = PBXBuildFile; fileRef = 27013A9D1D470B9900C1F166 /* hello2.tga */; };
+		27013AA31D470B9900C1F166 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 27013A9E1D470B9900C1F166 /* util.c */; };
+		27013AA41D470B9900C1F166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27013AA01D470B9900C1F166 /* main.m */; };
+		27013AA61D470BB400C1F166 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27013AA51D470BB400C1F166 /* OpenGL.framework */; };
+		27013AA81D470BB900C1F166 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27013AA71D470BB900C1F166 /* GLUT.framework */; };
+		27013AAA1D470BBE00C1F166 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27013AA91D470BBE00C1F166 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		270553661D46903100870F46 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		270553681D46903100870F46 /* hello-gl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hello-gl"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2705536B1D46903100870F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		270553721D46909C00870F46 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		270553741D4690A100870F46 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		270553761D4690A500870F46 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		27013A881D470B5D00C1F166 /* hello-gl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-gl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27013A911D470B5D00C1F166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27013A941D470B5D00C1F166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		27013A961D470B5D00C1F166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27013A9C1D470B9900C1F166 /* hello1.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = hello1.tga; sourceTree = "<group>"; };
+		27013A9D1D470B9900C1F166 /* hello2.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = hello2.tga; sourceTree = "<group>"; };
+		27013A9E1D470B9900C1F166 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		27013A9F1D470B9900C1F166 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		27013AA01D470B9900C1F166 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27013AA51D470BB400C1F166 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		27013AA71D470BB900C1F166 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		27013AA91D470BBE00C1F166 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		270553651D46903100870F46 /* Frameworks */ = {
+		27013A851D470B5D00C1F166 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				270553771D4690A500870F46 /* Cocoa.framework in Frameworks */,
-				270553751D4690A100870F46 /* GLUT.framework in Frameworks */,
-				270553731D46909D00870F46 /* OpenGL.framework in Frameworks */,
+				27013AAA1D470BBE00C1F166 /* Cocoa.framework in Frameworks */,
+				27013AA81D470BB900C1F166 /* GLUT.framework in Frameworks */,
+				27013AA61D470BB400C1F166 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2705535F1D46903100870F46 = {
+		27013A7F1D470B5D00C1F166 = {
 			isa = PBXGroup;
 			children = (
-				270553761D4690A500870F46 /* Cocoa.framework */,
-				270553741D4690A100870F46 /* GLUT.framework */,
-				270553721D46909C00870F46 /* OpenGL.framework */,
-				2705536A1D46903100870F46 /* hello-gl */,
-				270553691D46903100870F46 /* Products */,
+				27013AA91D470BBE00C1F166 /* Cocoa.framework */,
+				27013AA71D470BB900C1F166 /* GLUT.framework */,
+				27013AA51D470BB400C1F166 /* OpenGL.framework */,
+				27013A8A1D470B5D00C1F166 /* hello-gl */,
+				27013A891D470B5D00C1F166 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		270553691D46903100870F46 /* Products */ = {
+		27013A891D470B5D00C1F166 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				270553681D46903100870F46 /* hello-gl */,
+				27013A881D470B5D00C1F166 /* hello-gl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2705536A1D46903100870F46 /* hello-gl */ = {
+		27013A8A1D470B5D00C1F166 /* hello-gl */ = {
 			isa = PBXGroup;
 			children = (
-				2705536B1D46903100870F46 /* main.m */,
+				27013A9C1D470B9900C1F166 /* hello1.tga */,
+				27013A9D1D470B9900C1F166 /* hello2.tga */,
+				27013A9E1D470B9900C1F166 /* util.c */,
+				27013A9F1D470B9900C1F166 /* util.h */,
+				27013AA01D470B9900C1F166 /* main.m */,
+				27013A8E1D470B5D00C1F166 /* Supporting Files */,
 			);
 			path = "hello-gl";
+			sourceTree = "<group>";
+		};
+		27013A8E1D470B5D00C1F166 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27013A931D470B5D00C1F166 /* MainMenu.xib */,
+				27013A911D470B5D00C1F166 /* Assets.xcassets */,
+				27013A961D470B5D00C1F166 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		270553671D46903100870F46 /* hello-gl */ = {
+		27013A871D470B5D00C1F166 /* hello-gl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2705536F1D46903100870F46 /* Build configuration list for PBXNativeTarget "hello-gl" */;
+			buildConfigurationList = 27013A991D470B5D00C1F166 /* Build configuration list for PBXNativeTarget "hello-gl" */;
 			buildPhases = (
-				270553641D46903100870F46 /* Sources */,
-				270553651D46903100870F46 /* Frameworks */,
-				270553661D46903100870F46 /* CopyFiles */,
+				27013A841D470B5D00C1F166 /* Sources */,
+				27013A851D470B5D00C1F166 /* Frameworks */,
+				27013A861D470B5D00C1F166 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -91,53 +106,80 @@
 			);
 			name = "hello-gl";
 			productName = "hello-gl";
-			productReference = 270553681D46903100870F46 /* hello-gl */;
-			productType = "com.apple.product-type.tool";
+			productReference = 27013A881D470B5D00C1F166 /* hello-gl.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		270553601D46903100870F46 /* Project object */ = {
+		27013A801D470B5D00C1F166 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Kyle Stewart";
 				TargetAttributes = {
-					270553671D46903100870F46 = {
+					27013A871D470B5D00C1F166 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 270553631D46903100870F46 /* Build configuration list for PBXProject "hello-gl" */;
+			buildConfigurationList = 27013A831D470B5D00C1F166 /* Build configuration list for PBXProject "hello-gl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 2705535F1D46903100870F46;
-			productRefGroup = 270553691D46903100870F46 /* Products */;
+			mainGroup = 27013A7F1D470B5D00C1F166;
+			productRefGroup = 27013A891D470B5D00C1F166 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				270553671D46903100870F46 /* hello-gl */,
+				27013A871D470B5D00C1F166 /* hello-gl */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		27013A861D470B5D00C1F166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27013AA11D470B9900C1F166 /* hello1.tga in Resources */,
+				27013A921D470B5D00C1F166 /* Assets.xcassets in Resources */,
+				27013AA21D470B9900C1F166 /* hello2.tga in Resources */,
+				27013A951D470B5D00C1F166 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		270553641D46903100870F46 /* Sources */ = {
+		27013A841D470B5D00C1F166 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2705536C1D46903100870F46 /* main.m in Sources */,
+				27013AA41D470B9900C1F166 /* main.m in Sources */,
+				27013AA31D470B9900C1F166 /* util.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		27013A931D470B5D00C1F166 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27013A941D470B5D00C1F166 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		2705536D1D46903100870F46 /* Debug */ = {
+		27013A971D470B5D00C1F166 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		2705536E1D46903100870F46 /* Release */ = {
+		27013A981D470B5D00C1F166 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,16 +260,26 @@
 			};
 			name = Release;
 		};
-		270553701D46903100870F46 /* Debug */ = {
+		27013A9A1D470B5D00C1F166 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hello-gl/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kylestewart.hello-gl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		270553711D46903100870F46 /* Release */ = {
+		27013A9B1D470B5D00C1F166 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hello-gl/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kylestewart.hello-gl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -235,24 +287,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		270553631D46903100870F46 /* Build configuration list for PBXProject "hello-gl" */ = {
+		27013A831D470B5D00C1F166 /* Build configuration list for PBXProject "hello-gl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2705536D1D46903100870F46 /* Debug */,
-				2705536E1D46903100870F46 /* Release */,
+				27013A971D470B5D00C1F166 /* Debug */,
+				27013A981D470B5D00C1F166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2705536F1D46903100870F46 /* Build configuration list for PBXNativeTarget "hello-gl" */ = {
+		27013A991D470B5D00C1F166 /* Build configuration list for PBXNativeTarget "hello-gl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				270553701D46903100870F46 /* Debug */,
-				270553711D46903100870F46 /* Release */,
+				27013A9A1D470B5D00C1F166 /* Debug */,
+				27013A9B1D470B5D00C1F166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 270553601D46903100870F46 /* Project object */;
+	rootObject = 27013A801D470B5D00C1F166 /* Project object */;
 }

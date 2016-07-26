@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "270553671D46903100870F46"
-               BuildableName = "hello-gl"
+               BlueprintIdentifier = "27013A871D470B5D00C1F166"
+               BuildableName = "hello-gl.app"
                BlueprintName = "hello-gl"
                ReferencedContainer = "container:hello-gl.xcodeproj">
             </BuildableReference>
@@ -32,8 +32,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "270553671D46903100870F46"
-            BuildableName = "hello-gl"
+            BlueprintIdentifier = "27013A871D470B5D00C1F166"
+            BuildableName = "hello-gl.app"
             BlueprintName = "hello-gl"
             ReferencedContainer = "container:hello-gl.xcodeproj">
          </BuildableReference>
@@ -55,8 +55,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "270553671D46903100870F46"
-            BuildableName = "hello-gl"
+            BlueprintIdentifier = "27013A871D470B5D00C1F166"
+            BuildableName = "hello-gl.app"
             BlueprintName = "hello-gl"
             ReferencedContainer = "container:hello-gl.xcodeproj">
          </BuildableReference>
@@ -74,8 +74,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "270553671D46903100870F46"
-            BuildableName = "hello-gl"
+            BlueprintIdentifier = "27013A871D470B5D00C1F166"
+            BuildableName = "hello-gl.app"
             BlueprintName = "hello-gl"
             ReferencedContainer = "container:hello-gl.xcodeproj">
          </BuildableReference>
