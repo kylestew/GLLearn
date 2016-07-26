@@ -16,6 +16,8 @@
 		27013AA61D470BB400C1F166 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27013AA51D470BB400C1F166 /* OpenGL.framework */; };
 		27013AA81D470BB900C1F166 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27013AA71D470BB900C1F166 /* GLUT.framework */; };
 		27013AAA1D470BBE00C1F166 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27013AA91D470BBE00C1F166 /* Cocoa.framework */; };
+		27013AAD1D47125100C1F166 /* hello-gl.f.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 27013AAB1D47125100C1F166 /* hello-gl.f.glsl */; };
+		27013AAE1D47125100C1F166 /* hello-gl.v.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 27013AAC1D47125100C1F166 /* hello-gl.v.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		27013AA51D470BB400C1F166 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		27013AA71D470BB900C1F166 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		27013AA91D470BBE00C1F166 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		27013AAB1D47125100C1F166 /* hello-gl.f.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "hello-gl.f.glsl"; sourceTree = "<group>"; };
+		27013AAC1D47125100C1F166 /* hello-gl.v.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "hello-gl.v.glsl"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 		27013A8A1D470B5D00C1F166 /* hello-gl */ = {
 			isa = PBXGroup;
 			children = (
+				27013AAB1D47125100C1F166 /* hello-gl.f.glsl */,
+				27013AAC1D47125100C1F166 /* hello-gl.v.glsl */,
 				27013A9C1D470B9900C1F166 /* hello1.tga */,
 				27013A9D1D470B9900C1F166 /* hello2.tga */,
 				27013A9E1D470B9900C1F166 /* util.c */,
@@ -149,7 +155,9 @@
 				27013AA11D470B9900C1F166 /* hello1.tga in Resources */,
 				27013A921D470B5D00C1F166 /* Assets.xcassets in Resources */,
 				27013AA21D470B9900C1F166 /* hello2.tga in Resources */,
+				27013AAD1D47125100C1F166 /* hello-gl.f.glsl in Resources */,
 				27013A951D470B5D00C1F166 /* MainMenu.xib in Resources */,
+				27013AAE1D47125100C1F166 /* hello-gl.v.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
